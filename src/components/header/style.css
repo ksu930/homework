@@ -1,0 +1,8 @@
+.header {
+  border: 1px solid rgb(226, 218, 209);
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}

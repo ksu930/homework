@@ -1,0 +1,39 @@
+.form {
+  background-color:rgb(235, 228, 221);
+  border-radius: 15px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.leftbox {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 17px;
+}
+
+.titlebox {
+  width: 250px;
+  height: 40px;;
+  border-radius: 10px;
+  border: none;
+}
+
+.commentbox {
+  width: 250px;
+  height: 40px;;
+  border-radius: 10px;
+  border: none;
+}
+
+.addbutton {
+  background-color: rgb(30, 145, 139);
+  color : white;
+  width : 150px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+}
