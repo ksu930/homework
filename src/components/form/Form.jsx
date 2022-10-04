@@ -14,7 +14,7 @@ function Form({todos, setTodos}) {                      // todos와 setTodos를 
 
   const onChangeHandler = function(event){              // onChangeHandler 선언
     const {name, value} = event.target;                 // 이벤트가 발생한 target의 name값과 value값을 namer과 value 이름으로 저장
-    setTodo({...todo, [name]:value})                    // setTodo 함수를 이용하여 todo객체에 해당값을 저장 및 상태 변경
+    setTodo({...todo, [name]:value})                    // setTodo 함수를 이용하여 todo객체에 해당값을 저장 및 상태 변경, [name] 자리는 이벤트에 따라 값이 달라지므로 대괄호 사용
   }
 
   const onSubmitHandler = function(event){              // onSubmitHandler 선언
